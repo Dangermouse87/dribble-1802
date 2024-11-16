@@ -1,0 +1,46 @@
+.card {
+  padding: 16px;
+  box-shadow: 4px 4px rgba(0,0,0,0.25);
+  background-color: white;
+}
+
+.top {
+  height: 300px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.top-img {
+  width: 50%;
+  background-size: cover;
+  background-position: right;
+}
+
+.top-product-info {
+  width: 50%;
+  gap: 16px;
+}
+
+.stars {
+  color: yellow;
+}
+
+.card > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.footer img {
+  width: 30%;
+}
